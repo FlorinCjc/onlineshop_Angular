@@ -1,0 +1,56 @@
+<mat-drawer-container class="page-container" autosize>
+  <mat-drawer #drawer class="page-sidenav" mode="side">
+    <img class="app-logo" [src]="logo"/>
+
+    <p class="app-name">{{ title | uppercase }}</p>
+    <div class="div-menu">
+      <mat-card *ngFor="let item of items" (click)="onChangePage(item)">
+        <mat-card-content class="item-menu-title">{{ item.title | uppercase }}</mat-card-content>
+      </mat-card>
+
+      <mat-card>
+        <mat-card-content class="item-menu-title">{{ owner | titlecase }}</mat-card-content>
+      </mat-card>
+    </div>
+  </mat-drawer>
+
+  <mat-toolbar color="primary">
+    <button mat-icon-button (click)="drawer.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>{{ title }}</span>
+    <span class="button-spacer"></span>
+
+    <app-cart-button></app-cart-button>
+
+    <button mat-icon-button (click)="onLogout()">
+      <mat-icon>logout</mat-icon>
+    </button>
+  </mat-toolbar>
+
+  <div class="div-banner ">
+    <img src="https://www.cutoutimage.com/wp-content/uploads/2022/01/photographer-price-freatures-blog.webp" alt="">
+  <div class="AboutUs"><h1>Despre Noi</h1> <p> Bine ați venit la ArtEvents, Suntem dedicați să oferim cele mai bune servicii și produse pentru clienții noștri. Echipa noastră este formată din profesioniști pasionați și dedicați, care lucrează împreună pentru a atinge excelența în tot ceea ce facem. </p> <p> Misiunea noastră este să aducem valoare și satisfacție clienților noștri prin inovație, calitate și servicii excepționale. Ne străduim să fim lideri în industrie și să ne adaptăm constant la nevoile și dorințele clienților noștri. </p> <p> Vă mulțumim că ați ales ArtEvents și așteptăm cu nerăbdare să colaborăm cu dumneavoastră! </p>
+  </div>
+  </div>
+  <app-list-items [showAdmin]="false"></app-list-items>
+
+</mat-drawer-container>
+<html>
+<body>
+<section class="About">
+  <div class="Main">
+    <div class="about-text">
+      <h1>Contact Us</h1>
+      <h2>0241.66.33</h2>
+      <div>Opening Hours</div>
+      <div>Monday-Sunday</div>
+      <div>08:00 - 22:00</div>
+    </div>
+  </div>
+  <div class="Address">Address: Liverpool Uk</div>
+  <div class="Street">Kensington Street nr 63</div>
+</section>
+</body>
+</html>
+

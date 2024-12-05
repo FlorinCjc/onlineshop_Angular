@@ -1,0 +1,71 @@
+.button-spacer {
+  flex: 1 1 auto;
+}
+
+.page-sidenav {
+  padding: 20px;
+}
+
+.page-container {
+  height: 100%;
+}
+
+.app-logo {
+  width: 300px;
+}
+.app-name {
+  font-size: 20px;
+  color: black;
+  font-style: normal;
+  font-family: "Comic Sans MS";
+  text-align: center;
+}
+
+.div-menu {
+  margin-top: 50px;
+}
+
+.item-menu-title {
+  font-size: 16px;
+  color: black;
+  font-style: normal;
+  font-family: "Comic Sans MS";
+  text-align: center;
+}
+
+.div-banner {
+  width: 155%;
+  display: flex;
+  margin-bottom: 50px;
+  webkit-box-align: center;
+  margin-top:50px;
+}
+
+.img-banner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+}
+.about-text{
+  padding: 0;
+  width: auto;
+  margin: 0;
+  height:50%;
+  color:blue;
+}
+.Address{
+  color:blue;
+}
+.Street{
+  color: blue;
+}
+.AboutUs{
+  padding: 20px;
+  color: blue;
+  width:150px;
+  font-size: 15px;
+  background-size: auto;
+  background-color: dimgray;
+}
+
