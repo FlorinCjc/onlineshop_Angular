@@ -17,9 +17,9 @@ export class AuthComponent {
   retypePassword = new FormControl('', [Validators.required]);
   address = new FormControl('', [Validators.required]);
   phone = new FormControl('', [Validators.required]);
-
   constructor(private router: Router, private authService: AuthService, private userService: UserService) {
   }
+  auth:string= "assets/auth.jpeg"
 
   getErrorEmailMessage() {
     if (this.email.hasError('required')) {

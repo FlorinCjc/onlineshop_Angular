@@ -1,0 +1,17 @@
+.background_photo{
+  width: 340%;
+  display: flex;
+  margin-bottom: 50px;
+  webkit-box-align: center;
+  margin-top:10px;
+  margin-left: 60px;
+}
+.card-container{
+  position: fixed;
+  margin-bottom: 200px;
+  margin-top: 300px;
+  margin-left: 300px;
+  width: 50vh;
+  height: 25vh;
+
+}

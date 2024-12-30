@@ -13,6 +13,7 @@
 .app-logo {
   width: 300px;
 }
+
 .app-name {
   font-size: 20px;
   color: black;
@@ -34,11 +35,11 @@
 }
 
 .div-banner {
-  width: 155%;
+  width: 340%;
   display: flex;
   margin-bottom: 50px;
   webkit-box-align: center;
-  margin-top:50px;
+  margin-top: 10px;
 }
 
 .img-banner {
@@ -47,25 +48,36 @@
   width: 100%;
 
 }
-.about-text{
+
+.about-text {
   padding: 0;
   width: auto;
   margin: 0;
-  height:50%;
-  color:blue;
-}
-.Address{
-  color:blue;
-}
-.Street{
+  height: 50%;
   color: blue;
 }
-.AboutUs{
+
+.Address {
+  color: blue;
+}
+
+.Street {
+  color: blue;
+}
+
+.AboutUs {
   padding: 20px;
-  color: blue;
-  width:150px;
-  font-size: 15px;
+  max-width: 430px;
+  font-size: 25px;
+  text-align: center;
+  color: white;
   background-size: auto;
   background-color: dimgray;
+}
+
+.AboutUs h1 {
+  margin-top: 100px;
+  font-size: 2.5em;
+  color: #1b1b1b
 }
 
